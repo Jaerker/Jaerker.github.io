@@ -3,4 +3,14 @@ body{
     color: crimson;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    display: grid;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.comment{
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
