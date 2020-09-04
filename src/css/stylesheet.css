@@ -5,10 +5,7 @@ body{
     text-align: center;
     display: grid;
 }
-.header{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr ;
-}
+
 .comment{
     margin-top: 50px;
     margin-left: 10%;
@@ -25,6 +22,10 @@ footer{
     height: 40px; 
     background: darkred; 
     color: antiquewhite;
+}
+#navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 
 #foot{
@@ -43,7 +44,7 @@ footer{
     grid-column: 3;
 }
 #classyBorder{
- 
+    
     width: 50%;
 
 }
