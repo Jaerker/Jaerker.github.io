@@ -7,10 +7,44 @@ body{
 }
 .header{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
 }
 .comment{
     margin-top: 50px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 60px;
 }
+footer{
+    position: fixed; 
+    padding: 0px 10px 10px 10px; 
+    bottom: 0; 
+    width: 100%; 
+    
+    /* Height of the footer*/  
+    height: 40px; 
+    background: darkred; 
+    color: antiquewhite;
+}
+
+#foot{
+    display: grid;
+    grid-template-columns: 3fr 1fr 3fr;
+}
+
+#footerLeft{
+    text-align: left;
+    grid-column: 0;
+}
+
+#footerRight{
+    margin-right: 25px;
+    text-align: right;
+    grid-column: 3;
+}
+#classyBorder{
+ 
+    width: 50%;
+
+}
+
