@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
+}
+
+body{
+    
+    background-color: antiquewhite;
+    text-align: center;
+}
+.headerName{
+    font-size: 8vh;
+}
+
+ul{
+    list-style-type: none;
+}
+.logo a{
+    
+    letter-spacing: 5px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: rgb(117, 3, 3);
+    color: antiquewhite;
+    text-transform:uppercase;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.navlinks a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: antiquewhite;
+    margin: 4px;
+}
+
+.burger{
+    display: none;
+}
+.border{
+
+    display:flex;
+    justify-content: center;
+}
+.border img{
+    width:60%;
+    height: auto;
+
+}
+.cvSection h1{
+    margin: 70px 0px 0px 0px;
+    
+}
+.cvSection {
+    margin: 50px 70px -30px 70px;
+    
+}
+
+.cvPart{
+    margin: 50px 70px -30px 70px;
+    display: flex;
+    justify-content: center;
+}
+.cvTextInfo {
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.cvJobPic img {
+
+    
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.cvPart .cvJobTitle{
+    text-decoration-line: underline;
+    font-size: 4vh;
+    font-weight: bold;
+}
+.cvPart .cvJobTime{
+    color: rgb(56, 53, 48);
+    font-size: 3vh;
+    font-weight: bolder;
+}
+.cvPart .cvJobDescription{
+    font-size: 3vh;
+}
+
+.greetingMessage p{
+    margin: 50px 10% 50px 10%;
+    font-size: 4vh;
+}
+
+
+@media screen and (max-width: 765px){
+    .navlinks{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background: rgb(117, 3, 3);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 45%;
+        transform: translateY(-120%);
+        transition: transform 0.2s ease-in
+        
+    }
+    .navlinks li{
+        opacity: 1;
+    }
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    
+    .cvSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    
+    
+    }
+
+    .cvPart{
+        margin: 50px 70px -30px 70px;
+        display:block;
+    }
+    .cvJobPic img {
+        border: 2px solid;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .cvPart .cvJobTitle{
+        font-size: 4vh;
+        
+    }
+    .greetingMessage p{
+        font-size: 3vh;
+    }
+
+}
+.nav-active {
+    transform: translateY(0%);
+}
+
+@keyframes navlinkFade{
+    from{
+        opacity: 0;
+        translate: transformX(50%);
+    }to{
+        opacity: 1;
+        translate: transformX(0%);
+    }
+}
