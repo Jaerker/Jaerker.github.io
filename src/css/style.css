@@ -99,7 +99,8 @@ nav{
     font-weight: bold;
 }
 .cvPart .cvJobTime{
-    color: rgb(56, 53, 48);
+    margin: 10px 0px 0px 0px;
+    color: rgb(90, 86, 78);
     font-size: 3vh;
     font-weight: bolder;
 }
