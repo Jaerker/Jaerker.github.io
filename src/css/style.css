@@ -115,10 +115,18 @@ nav{
 
 
 @media screen and (max-width: 765px){
+    nav{
+        position: fixed;
+        width: 100%
+    }
+    .border img{
+        padding-top: 55px;
+        
+    }
     .navlinks{
         position: absolute;
         right: 0px;
-        height: 92vh;
+        height: 75vh;
         top: 8vh;
         background: rgb(117, 3, 3);
         display: flex;
@@ -149,7 +157,7 @@ nav{
     }
 
     .cvPart{
-        margin: 50px 70px -30px 70px;
+        margin: 50px 10% -30px 10%;
         display:block;
     }
     .cvJobPic img {
