@@ -114,6 +114,13 @@ nav{
 }
 
 
+
+.aboutSection p{
+    margin: 10% 50px 10% 50px;
+    font-size: 4vh;
+}
+
+
 @media screen and (max-width: 765px){
     nav{
         position: fixed;
