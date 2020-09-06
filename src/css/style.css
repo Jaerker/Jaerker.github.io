@@ -104,7 +104,7 @@ nav{
     font-size: 3vh;
     font-weight: bolder;
 }
-.cvPart .cvJobDescription{
+.cvJobDescription p{
     font-size: 3vh;
 }
 
@@ -167,11 +167,14 @@ nav{
     }
 
     .cvPart .cvJobTitle{
-        font-size: 4vh;
+        font-size: 6vh;
         
     }
     .greetingMessage p{
-        font-size: 3vh;
+        font-size: 4vh;
+    }
+    .cvJobDescription p {
+        font-size: 5vh;
     }
 
 }
