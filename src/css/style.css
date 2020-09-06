@@ -74,15 +74,15 @@ nav{
 }
 
 .cvPart{
-    margin: 50px 70px -30px 70px;
+    margin: 50px 10% -30px 10%;
     display: flex;
     justify-content: center;
 }
 .cvTextInfo {
-    margin: 20px;
+    margin-top: 10px;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    
     
 }
 .cvJobPic img {
