@@ -85,12 +85,16 @@ nav{
     
     
 }
+.cvJobPic {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;  
+}
 .cvJobPic img {
-
-    
     border: 2px solid;
     border-radius: 15px;
     padding: 10px;
+
 }
 
 .cvPart .cvJobTitle{
