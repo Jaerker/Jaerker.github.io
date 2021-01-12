@@ -139,6 +139,10 @@ nav{
     margin: 5px 2px;
     text-align:center;
   }
+
+  .projectCard a {
+    text-decoration: none;
+  }
   
   .projectCard img {
       border-radius: 5px 5px 0px 0px;
