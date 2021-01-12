@@ -13,8 +13,8 @@ const NavSlide = () => {
     });
 }
 
-function NotReady(){
+/*function NotReady(){
     alert("This part is not implemented yet, But please check my Github what I´m working on right now and contact me for a test on the \"Lek och lär\" game I made for my kids real quick since it is the only fully complete project i have so far (on Android as .apk file)")
-}
+}*/
 
 NavSlide();
