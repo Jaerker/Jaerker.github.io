@@ -128,14 +128,14 @@ nav{
     display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	height: 100px;
+	height: 10em;
 }
 
 .projectCard {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     border-radius: 4px;
-    width:15%;
+    width: 12em;
     margin: 5px 2px;
     text-align:center;
   }
