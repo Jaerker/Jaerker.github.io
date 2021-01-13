@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin-bottom: 2em;
     padding: 0px;
     box-sizing: border-box;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -129,7 +129,7 @@ nav{
 	justify-content: space-around;
 	flex-wrap: wrap;
     height: 10em;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 .projectCard {
