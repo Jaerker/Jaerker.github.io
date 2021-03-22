@@ -163,6 +163,12 @@ nav{
   }
 
 
+  .projectImage {
+      border-radius: 10px;
+      max-width: 50%;
+      height: auto;
+  }
+
 @media screen and (max-width: 765px){
     nav{
         position: fixed;
