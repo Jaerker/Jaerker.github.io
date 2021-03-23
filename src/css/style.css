@@ -16,7 +16,7 @@ body{
     font-size: 8vh;
 }
 
-.profilePic{
+.profilePic img{
     border-radius: 25%;
     border-style: groove 2px;
     height: 50%;
