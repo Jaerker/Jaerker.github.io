@@ -165,13 +165,14 @@ nav{
 
   .projectImage {
       border-radius: 10px;
-      max-width: 50%;
+      max-width: 75%;
       height: auto;
   }
 
   .displayImagesInProjectSite{
       display: grid;
       grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
 
   }
 
@@ -246,7 +247,7 @@ nav{
   
     .displayImagesInProjectSite{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         
     }
   
