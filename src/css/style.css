@@ -185,6 +185,10 @@ nav{
         padding-top: 55px;
         
     }
+    .headerName{
+        font-size: 8vh;
+        margin-top: 10%;
+    }
     .navlinks{
         position: absolute;
         right: 0px;
