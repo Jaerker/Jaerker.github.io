@@ -187,7 +187,7 @@ nav{
     }
     .headerName{
         font-size: 8vh;
-        margin-top: 10%;
+        padding-top: 10%;
     }
     .navlinks{
         position: absolute;
