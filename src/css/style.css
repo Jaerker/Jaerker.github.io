@@ -170,9 +170,8 @@ nav{
   }
 
   .displayImagesInProjectSite{
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: 1fr,1fr;
 
   }
 
