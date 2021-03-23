@@ -254,7 +254,11 @@ nav{
         grid-template-columns: 1fr;
         
     }
-  
+    .displayImagesInProjectSite img{
+        max-width: 80%;
+        height: auto;
+
+    }
 
 }
 .nav-active {
