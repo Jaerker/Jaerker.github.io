@@ -19,8 +19,8 @@ body{
 .profilePic img{
     border-radius: 25%;
     border-style: groove 2px;
-    height: 50%;
-    width: 50%;
+    height: auto;
+    max-width: 50%;
 }
 ul{
     list-style-type: none;
