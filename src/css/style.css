@@ -17,10 +17,10 @@ body{
 }
 
 .profilePic img{
-    border-radius: 25%;
+    border-radius: 50%;
     border-style: groove 2px;
     height: auto;
-    max-width: 50%;
+    max-width: 75%;
 }
 ul{
     list-style-type: none;
