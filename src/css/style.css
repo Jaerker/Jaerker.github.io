@@ -175,6 +175,11 @@ nav{
       grid-template-rows: 1fr 1fr;
 
   }
+  .displayImagesInProjectSite img{
+    max-width: 80%;
+    height: auto;
+
+  }
 
 @media screen and (max-width: 765px){
     nav{
